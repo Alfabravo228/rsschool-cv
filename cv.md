@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> Bohdan Mykhailenko </h1>
+# Bohdan Mykhailenko 
 ### Currently
 _I am a first year student from Ukraine.I have been learning WEB-development about 6 month.I hope to become a frontend-developer and for this target I will make an enough efforts.  I may master a big stream of new information , also I have an analytic type of mind.I have began to study English ,because I had very gap of knowledge in this._
 ___
@@ -100,3 +100,4 @@ ___
 ###### Email: _6alfabravo9@gmail.com_
 ###### Phone: _+380956450247_
 ###### Location: _Malyn,Ukraine_
+___
