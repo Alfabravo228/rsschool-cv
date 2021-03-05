@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <div class="header__column">
+          <div class="header__img">
+            <img src="img/photo.jpg" alt="photo">
+          </div>
+        </div>
+        <div class="header__column">
+          <h1 class="header__title">Bohdan Mykhailenko</h1>
+          <h2 class="header__subtitle subtitle">Student</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title title">About me</h2>
+        <div class="about__text text ">
+          I am a first year student from Ukraine.I have been learning WEB-development about 6 month.I hope to become a
+          frontend-developer and for this target I will make an enough efforts. I may master a big stream of new
+          information , also I have an analytic type of mind.I have began to study English ,because I had very gap of
+          knowledge in this.
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2 class="skills__title title">Skills</h2>
+        <h3 class="skills__subtitle subtitle">Programming languages</h3>
+        <ul class="skills__list text">
+          <li>Basics C/C++</li>
+          <li>Basics JavaScript</li>
+          <li>Basics Python</li>
+        </ul>
+        <h3 class="skills__subtitle subtitle">WEB-instruments</h3>
+        <ul class="skills__list text">
+          <li>HTML5</li>
+          <li>CSS(SCSS)</li>
+          <li>Basics Git/GitHub</li>
+        </ul>
+      </div>
+    </section>
+    <section class="coding">
+      <div class="container">
+        <h2 class="coding__title title">Examples of coding</h2>
+        <h3 class="coding__subtitle subtitle">JavaScript</h3>
+        <div class="coding__item">
+          <div class="coding__code">
+            <pre>
+            function findShort(s){
+            let arr = [];
+            let arr2 = [];
+            let tmp = 0;
+            arr = s.split('');
+
+            for(let i = 0; i &lt; arr.length; i++) {
+              if( i == arr.length - 1 ) { 
+                tmp++;
+                arr2.push(tmp);
+                tmp = 0;
+              } if(arr[i] !=" " ) {
+                tmp ++;
+              } else {
+                arr2.push(tmp);
+                tmp = 0;
+              } 
+            } 
+
+            arr2.sort( (a, b)=> a - b );
+            return arr2[0];
+            }
+            </pre>
+          </div>
+        </div>
+        <h3 class="coding__subtitle subtitle">C++</h3>
+        <div class="coding__item">
+          <div class="coding__code">
+            <pre>
+            #include &lt;windows.h&gt;
+            #include &lt;time.h&gt;
+            #includ  &lt;iostream&gt;
+            #include &lt;stdlib.h&gt;
+            #include &lt;conio.h&gt;
+            using namespace std;
+            HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+            int number;
+
+            int main() {
+            do {
+              srand(time(NULL));
+              COORD position;
+              HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+              position.X = (rand() % 100 + 1);
+              position.Y = (rand() % 30 + 1);
+              SetConsoleCursorPosition(hConsole, position);
+
+              int i, color;
+              string text = "Hello?World!";
+              for ( i = 0; i &lt; text.length(); i++) {
+                color=(rand() % 15 + 1);
+                SetConsoleTextAttribute(console,color); 
+                cout &lt;&lt; text[i]; 
+                Sleep(333); 
+              } 
+
+              Sleep(1000);
+              SetConsoleTextAttribute(console, 15); 
+              system ("cls"); 
+              cout&lt;&lt;"Do you want to continue?1/0"&lt;&lt;"\n";
+              cin>>number;
+              system ("cls");
+            } while (number == 1);
+            return 0;
+            getch();
+            }
+            </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="container">
+        <h2 class="experience__title title">Work experience</h2>
+        <div class="experience__text text">
+          I don't have an experience in real projects,but I have made about 10 learning-project that is psd-makets.
+        </div>
+      </div>
+    </section>
+    <section class="education">
+      <div class="container">
+        <h2 class="education__title title">Education</h2>
+        <div class="education__text text">
+          <ul class="education__list text">
+            <li>Сomplete secondary education</li>
+            <li>First course of university</li>
+            <li>Online-courses for HTML/CSS/JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="english">
+      <div class="container">
+        <h2 class="english__title title">English</h2>
+        <div class="english__text text">
+          I learn English every day in order to improve my knowledge.Today,my level of English is intermediate.
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer__title title">Contacts</h2>
+      <div class="footer__row">
+        <div class="footer__column">
+          <div class="footer__item">
+            <span class="footer__subtitle subtitle">Phone:</span>
+            <span class="footer__text text">+38 095 645 0247</span>
+          </div>
+          <div class="footer__item">
+            <span class="footer__subtitle subtitle">Email:</span>
+            <span class="footer__text text">alfabravo9@gmail.com</span>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__item">
+            <span class="footer__subtitle subtitle">Location:</span>
+            <span class="footer__text text">Malyn, Ukraine</span>
+          </div>
+          <div class="footer__item">
+            <span class="footer__subtitle subtitle">GitHub:</span>
+            <a href="https://github.com/Alfabravo228" class="footer__text text">Alfabravo228</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

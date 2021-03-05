@@ -90,7 +90,7 @@ I don't have an experience in real projects,but I have made about 10 learning-pr
 ___
 ### Education 
 * School
-* First course of university;specialty:System Analysis
+* First course of university  
 * Online-courses for HTML/CSS/JavaScript
 ___
 ### English 
