@@ -1,4 +1,5 @@
-<h1 style="text-align: center;"> Bohdan Mykhailenko </h1>
+# Bohdan Mykhailenko 
+
 ### Currently
 _I am a first year student from Ukraine.I have been learning WEB-development about 6 month.I hope to become a frontend-developer and for this target I will make an enough efforts.  I may master a big stream of new information , also I have an analytic type of mind.I have began to study English ,because I had very gap of knowledge in this._
 ___
@@ -13,8 +14,9 @@ ___
   * Basics Git/GitHub
 ___
 ### Example of coding 
-##### JavaScript:
 ```
+##### JavaScript:
+
 function findShort(s){
   let arr = [];
   let arr2 = [];
@@ -38,7 +40,7 @@ function findShort(s){
   
   arr2.sort( (a, b) => a - b );
   return arr2[0];
-}
+} 
 ```
 ##### C++:
 ```
@@ -85,6 +87,7 @@ return 0;
 getch();
 }
 ```
+___
 ### Experience
 I don't have an experience in real projects,but I have made about 10 learning-project that is psd-makets.
 ___
